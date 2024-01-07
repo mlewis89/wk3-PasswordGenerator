@@ -37,7 +37,7 @@ html_btn_Generate.addEventListener("click", function () {
   //get password length
   do {
     //WHEN prompted for the length of the password
-    var pwLength = window.prompt("How long would you like the password to be? (max 128)");
+    var pwLength = window.prompt("How long would you like the password to be? (min 8, max 128)");
     //Check for cancel button and exit if pressed
     if(pwLength === null)
     {return null;}
@@ -50,7 +50,7 @@ html_btn_Generate.addEventListener("click", function () {
 
     }
     else {
-      window.alert("invalid length: must be between 8 and 128");
+      window.alert("invalid length: must be a number between 8 and 128");
     }
   }
   while (!validInput)

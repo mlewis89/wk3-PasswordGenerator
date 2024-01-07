@@ -1,46 +1,42 @@
 
 
-# Bootcamp Challenge Week Two - Accessabilty
+# Bootcamp Challenge Week Three - Password Generator
 
 ## Description
 
-Purpose: to test my knowledge of HTML, and CSS formating.
+Purpose: to test my knowledge of javascript.
 
-in this project i was given no starter code, and a refference gif file of the expected output. The example included a navigation bar, hero image, and some content sections. including hover effect and css transitions.
+in this project i was given the html and css code starter code, and no javascript code.Tthe task was to create javascript code that enables employees to generate random passwords based on criteria that they've selected, and dynamically display the generated password within the HTML and CSS elements
 
-During the project I learnt that if you want to make an image transparent but leave the floating text on top alone the text needs to be included in the same anchor ```<a>``` tag and should come after the ```<img>``` tag.
-
-I also learnt how finicky it can be to get a specify style with CSS however the dev tools whithin chrome make it far easier to understand the root cause.
-
-For the images within the site i have used a mixture of screen shoots from my previous assignments and my own photos.
-
+During the project I learnt the importance of the parseInt() function to ensure entered number is parsed correctly as a number instead of a string
 
 # User Story
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
 ```
+
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
 ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Usage
@@ -51,15 +47,17 @@ https://mlewis89.github.io/wk2-challenge/
 
 ## Screen Shots of Completed Challenge
 
-![completed portfolio](./assets/screenshot1.PNG)
-![completed portfolio](./assets/screenshot2.PNG)
-
-Responsive design for mobiles
-![completed portfolio](./assets/screenshot3.PNG)
+![completed application](./Assets/screenshots/Capture1.PNG)
+![completed application](./Assets/screenshots/Capture2.PNG)
+![completed application](./Assets/screenshots/Capture3.PNG)
+![completed application](./Assets/screenshots/Capture4.PNG)
+![completed application](./Assets/screenshots/Capture5.PNG)
+![completed application](./Assets/screenshots/Capture6.PNG)
+![completed application](./Assets/screenshots/Capture7.PNG)
 
 ## Installation
 
-The project files are within the /root folder of this repo, please explore index.html and /asests/style.css.
+The project files are within the /root folder of this repo, please explore index.html, ./asests/style.css. and ./assets/js/script.js
 
 
 ## Credits
@@ -71,9 +69,3 @@ Monash University Full Stack Coding bootcamp
 Please see MIT Licence within repo
 
 ---
-
-## Provided Sample
-
-The following animation shows the expected web application's appearance and functionality:
-
-![portfolio demo](./02-Challenge/Assets/02-advanced-css-homework-demo.gif)
