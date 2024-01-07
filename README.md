@@ -41,9 +41,11 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Usage
 
-the completed project can be veiwed via github pages as below.
-https://mlewis89.github.io/wk2-challenge/
+The completed project can be viewed via GitHub pages as below.
+https://mlewis89.github.io/wk3-PasswordGenerator/
 
+GitHub repository
+https://github.com/mlewis89/wk3-PasswordGenerator/
 
 ## Screen Shots of Completed Challenge
 
